@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Image Gallery & Theme Toggle</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="wrapper">
+    <h1>My Image Gallery</h1>
+    <button id="toggleThemeBtn" type="button" aria-pressed="false">Toggle Theme</button>
+  </header>
+
+  <main class="wrapper" role="main">
+    <section aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading" class="visually-hidden">Gallery</h2>
+
+      <!-- Exactly one img above one p (requirement) -->
+      <img id="displayImg" src="" alt="" width="640" height="426" />
+      <p id="imgCredit" aria-live="polite"></p>
+
+      <!-- Five buttons, one per image -->
+      <div class="buttons">
+        <button class="imgBtn" data-key="bagel" type="button">Bagel</button>
+        <button class="imgBtn" data-key="doll" type="button">Doll</button>
+        <button class="imgBtn" data-key="icecream" type="button">Ice Cream</button>
+        <button class="imgBtn" data-key="kangaroo" type="button">Kangaroo</button>
+        <button class="imgBtn" data-key="sky" type="button">Sky</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrapper">
+    <p>© 2025 Zoe</p>
+  </footer>
+</body>
+</html>
