@@ -48,7 +48,7 @@ img { display: block; width: 100%; height: auto; border-radius: 12px; border: 3p
 #imgCredit { margin: 10px 0 18px; }
 
 /* Buttons */
-.buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+.buttons { display: flex; flex-wrap: wrap; gap: 14px; }
 .imgBtn {
   border: 2px solid var(--primary-color);
   background: transparent; color: var(--primary-color);
