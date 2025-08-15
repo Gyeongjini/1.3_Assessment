@@ -3,7 +3,7 @@
 const IMAGES = {
   bagel: {
     src: "images/IMG_bagel.jpeg",
-    credit: "Photo: Bagel",
+    credit: "Photo: Bagel (Updated)",
     alt: "A bagel"
   },
   doll: {
