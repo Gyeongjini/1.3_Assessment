@@ -11,8 +11,8 @@ const IMAGES = {
     credit: "Photo: Doll",
     alt: "A doll"
   },
-  icecream: {
-    src: "images/IMG_icecream.jpeg",
+  Icecream: {
+    src: "images/IMG_Icecream.jpeg",
     credit: "Photo: Ice Cream",
     alt: "Ice cream"
   },
